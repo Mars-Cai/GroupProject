@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_172" class="java.beans.XMLDecoder">
+ <object class="persistence.XMLObjects.SeedXML" id="SeedXML0">
+  <void class="persistence.XMLObjects.SeedXML" method="getField">
+   <string>seed</string>
+   <void method="set">
+    <object idref="SeedXML0"/>
+    <long>1538970238707</long>
+   </void>
+  </void>
+ </object>
+ <object class="persistence.XMLObjects.WorldXML" id="WorldXML0"/>
+<void class="persistence.XMLObjects.EnemyXML" method="getField">
+ <string>location</string>
+ <void method="set">
+  <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML0"/>
+  <object class="persistence.XMLObjects.LocationXML" id="LocationXML0">
+   <void class="persistence.XMLObjects.LocationXML" method="getField">
+    <string>x</string>
+    <void method="set">
+     <object idref="LocationXML0"/>
+     <double>30.0</double>
+    </void>
+   </void>
+   <void class="persistence.XMLObjects.LocationXML" method="getField">
+    <string>y</string>
+    <void method="set">
+     <object idref="LocationXML0"/>
+     <double>19.0</double>
+    </void>
+   </void>
+  </object>
+ </void>
+</void>
+<void class="persistence.XMLObjects.WorldXML" id="Field0" method="getField">
+ <string>enemyObjects</string>
+ <void id="ArrayList0" method="get">
+  <object idref="WorldXML0"/>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML1">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML1"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML1">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML1"/>
+         <double>11.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML1"/>
+         <double>26.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML2">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML2"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML2">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML2"/>
+         <double>5.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML2"/>
+         <double>23.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML3">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML3"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML3">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML3"/>
+         <double>7.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML3"/>
+         <double>27.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML4">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML4"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML4">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML4"/>
+         <double>11.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML4"/>
+         <double>36.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML5">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML5"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML5">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML5"/>
+         <double>9.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML5"/>
+         <double>35.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML6">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML6"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML6">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML6"/>
+         <double>8.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML6"/>
+         <double>35.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML7">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML7"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML7">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML7"/>
+         <double>11.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML7"/>
+         <double>31.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML8">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML8"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML8">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML8"/>
+         <double>18.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML8"/>
+         <double>27.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML9">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML9"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML9">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML9"/>
+         <double>15.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML9"/>
+         <double>25.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML10">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML10"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML10">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML10"/>
+         <double>14.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML10"/>
+         <double>27.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML11">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML11"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML11">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML11"/>
+         <double>16.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML11"/>
+         <double>16.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML12">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML12"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML12">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML12"/>
+         <double>19.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML12"/>
+         <double>15.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML13">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML13"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML13">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML13"/>
+         <double>19.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML13"/>
+         <double>19.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML14">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML14"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML14">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML14"/>
+         <double>20.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML14"/>
+         <double>13.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML15">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML15"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML15">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML15"/>
+         <double>17.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML15"/>
+         <double>13.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML16">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML16"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML16">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML16"/>
+         <double>27.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML16"/>
+         <double>25.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML17">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML17"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML17">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML17"/>
+         <double>30.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML17"/>
+         <double>25.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML18">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML18"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML18">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML18"/>
+         <double>31.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML18"/>
+         <double>21.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="EnemyXML0"/>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML19">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML19"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML19">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML19"/>
+         <double>8.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML19"/>
+         <double>33.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>isBoss</string>
+     <void method="set">
+      <object idref="EnemyXML19"/>
+      <boolean>true</boolean>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="persistence.XMLObjects.EnemyXML" id="EnemyXML20">
+    <void class="persistence.XMLObjects.EnemyXML" method="getField">
+     <string>location</string>
+     <void method="set">
+      <object idref="EnemyXML20"/>
+      <object class="persistence.XMLObjects.LocationXML" id="LocationXML20">
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>x</string>
+        <void method="set">
+         <object idref="LocationXML20"/>
+         <double>4.0</double>
+        </void>
+       </void>
+       <void class="persistence.XMLObjects.LocationXML" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="LocationXML20"/>
+         <double>17.0</double>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="persistence.XMLObjects.VendorXML" method="getField">
+ <string>location</string>
+ <void method="set">
+  <object class="persistence.XMLObjects.VendorXML" id="VendorXML0"/>
+  <object class="persistence.XMLObjects.LocationXML" id="LocationXML21">
+   <void class="persistence.XMLObjects.LocationXML" method="getField">
+    <string>x</string>
+    <void method="set">
+     <object idref="LocationXML21"/>
+     <double>8.0</double>
+    </void>
+   </void>
+   <void class="persistence.XMLObjects.LocationXML" method="getField">
+    <string>y</string>
+    <void method="set">
+     <object idref="LocationXML21"/>
+     <double>33.0</double>
+    </void>
+   </void>
+  </object>
+ </void>
+</void>
+<void class="persistence.XMLObjects.LocationXML" method="getField">
+ <string>x</string>
+ <void method="set">
+  <object class="persistence.XMLObjects.LocationXML" id="LocationXML22">
+   <void class="persistence.XMLObjects.LocationXML" method="getField">
+    <string>y</string>
+    <void method="set">
+     <object idref="LocationXML22"/>
+     <double>19.0</double>
+    </void>
+   </void>
+  </object>
+  <double>8.0</double>
+ </void>
+</void>
+<void class="persistence.XMLObjects.ChestXML" method="getField">
+ <string>location</string>
+ <void method="set">
+  <object class="persistence.XMLObjects.ChestXML" id="ChestXML0"/>
+  <object idref="LocationXML22"/>
+ </void>
+</void>
+<void class="persistence.XMLObjects.WorldXML" id="Field1" method="getField">
+ <string>chestObjects</string>
+ <void id="ArrayList1" method="get">
+  <object idref="WorldXML0"/>
+  <void method="add">
+   <object idref="ChestXML0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="persistence.XMLObjects.WorldXML" id="Field2" method="getField">
+ <string>vendorObjects</string>
+ <void id="ArrayList2" method="get">
+  <object idref="WorldXML0"/>
+  <void method="add">
+   <object idref="VendorXML0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+</java>
